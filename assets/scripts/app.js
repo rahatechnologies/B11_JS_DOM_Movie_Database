@@ -1,23 +1,30 @@
 //========================================//
 //addMovieModal
 //========================================//
+
+// way 1
 // performance best
 const addMovieModal = document.getElementById('add-modal');
 
+// Way2
 // non static node
 // const addMovieModal2 = document.querySelector('#add-modal');
 
+// way3
 // select first modal only
 // const addMovieModal3 = document.querySelector('.modal');
 
+// way4
 // Dom Traversal (risky)
 // const addMovieModal4 = document.body.children[1];
 
 //========================================//
 //startAddmovieButton
 //========================================//
+// way1
 const startAddmovieButton = document.querySelector('header button');
 
+// way2
 // performance not good than css child selector
 // const startAddmovieButton2 = document.querySelector('header').lastElementChild;
 
